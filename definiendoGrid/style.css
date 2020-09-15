@@ -7,3 +7,20 @@
 html {
   font-size: 62.5%;
 }
+
+/* 
+    Definiendo el display Grid y las Columnas
+    Definiendo las Filas.
+ */
+
+.container {
+  display: grid;
+  grid-template-columns: 25% 50% 25%; /*Definir Columnas*/
+  grid-template-rows: 5rem 8rem 5rem; /*Definiendo Filas*/
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.element {
+  border: 1px solid red;
+}
