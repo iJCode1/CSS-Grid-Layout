@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  display: grid;
+  grid-template: 7rem 7rem 7rem / repeat(3, minmax(20rem, 1fr));
+}
+
+.item {
+  border: 1px solid red;
+}
