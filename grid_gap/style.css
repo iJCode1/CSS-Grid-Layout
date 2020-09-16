@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/*
+  Con la propiedad gap podemos dar margenes tanto a filas y columnas.
+  Podemos usar:
+  column-gap: Para margenes en las columnas
+                o
+  row-gap: para margenes en las filas.
+
+  Pero tambien existe la forma acortada que es: 
+
+  gap: filas columnas
+
+  La diferencia con aplicar simplemente un margen es que este no afectara al tamaño de los elementos.
+  Ademas de que este no se aplicara mas que a los elementos entre si.
+  Por ejemplo en una columna no lo aplicara a la izquierda de la primera columna ni a la derecha de la ultima.
+  Tampoco a la parte superior de la primera fila, ni a la inferior de la ultima.
+*/
+
+.container {
+  display: grid;
+  grid-template: 15rem 15rem 15rem / 20rem 20rem 20rem;
+  gap: 4rem 2rem;
+}
+
+.item {
+  font-size: 1.6rem;
+  border: 1px solid red;
+}
+
+.item:nth-of-type(4) {
+  display: grid;
+  grid-template: 10rem 10rem 5rem 10rem/ 10rem 10rem;
+  overflow: auto;
+}
+
+.sub__item {
+  border: 1px solid blue;
+  background-color: yellow;
+}
