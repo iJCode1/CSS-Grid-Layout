@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  display: grid;
+  grid-template: 15rem 15rem 15rem / 20rem 20rem 20rem;
+}
+
+.item {
+  font-size: 1.6rem;
+  border: 1px solid red;
+}
+
+/*
+    Seleccionando el Cuarto item
+*/
+
+/*
+    Aplicando un Subgrid
+*/
+
+.item:nth-of-type(4) {
+  display: grid;
+  grid-template: 10rem 10rem 5rem 10rem/ 10rem 10rem;
+  overflow: auto;
+}
+
+.sub__item {
+  border: 1px solid blue;
+  background-color: yellow;
+}
