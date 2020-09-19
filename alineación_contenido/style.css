@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 20rem);
+  grid-template-rows: repeat(2, 20rem);
+  justify-content: center; /* Esta propiedad justifica el contenido horizontalmente*/
+  align-content: center; /* Esta propiedad alinea el contenido verticalmente*/
+}
+
+.item {
+  border: 1px solid red;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
