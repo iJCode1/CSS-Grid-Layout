@@ -6,48 +6,43 @@
 
 html {
   font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
 }
 
-a {
-  text-decoration: none;
-}
-
-.photo__element {
+.element {
+  display: inline-block;
   position: relative;
+}
+
+.element__imageWrap {
   display: inline-block;
 }
 
-.imgWrap {
-  display: inline-block;
-}
-
-.imgWrap img {
+.element__image {
   width: 200px;
+  vertical-align: top;
 }
 
-.numbers {
+.element__hover {
   position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  font-size: 2.5rem;
-  display: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  display: none;
 }
 
-.numbers__likes,
-.numbers__comments {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  margin: 0.5rem;
-  color: white;
+.hover__likes,
+.hover__comments {
+  margin: 0.8rem;
 }
 
-.photo__element:hover .numbers {
+.element:hover .element__hover {
+  background-color: rgba(0, 0, 0, 0.4);
   display: flex;
-  background-color: rgba(0, 0, 0, 0.5);
 }
