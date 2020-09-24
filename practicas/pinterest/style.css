@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 30rem));
+  gap: 1rem;
+  grid-auto-flow: row;
+  justify-content: center;
+}
+
+.itemWrap {
+  display: inline-block;
+}
+
+.item {
+  background-color: #f2f2f2;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 100%;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+}
+
+.one {
+  grid-row-end: span 3;
+}
+
+.two {
+  grid-row-end: span 2;
+}
+
+.three {
+  grid-row-end: span 1;
+}
