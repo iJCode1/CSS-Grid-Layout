@@ -40,7 +40,7 @@ html {
 }
 
 .item:nth-of-type(4) {
-  grid-column: col5 / columnaF;
+  grid-column: col5 / finalC;
   grid-row: fila2 / fila3;
 }
 
@@ -50,6 +50,6 @@ html {
 }
 
 .item:nth-of-type(6) {
-  grid-column: col6 / columnaF;
+  grid-column: col6 / finalC;
   grid-row: fila3 / filaF;
 }
