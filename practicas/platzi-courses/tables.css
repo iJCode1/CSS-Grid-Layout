@@ -1,0 +1,10 @@
+.hero {
+  padding: 4rem 3rem;
+  justify-content: center;
+  grid-template-columns: minmax(auto, 1fr);
+  grid-template-areas:
+    "badge title"
+    ". description"
+    ". release"
+    "form form";
+}

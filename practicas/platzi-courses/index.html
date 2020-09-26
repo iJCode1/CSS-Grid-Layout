@@ -7,53 +7,65 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="shortcut icon" type="image/x-icon" href="./images/logo.jpg" />
     <link
+      rel="stylesheet"
+      href="tables.css"
+      media="screen and (max-width: 1023px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./mobile.css"
+      media="screen and (max-width: 700px)"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <section class="hero">
-      <div class="badge">
-        <figure class="imgWrap">
-          <img src="./images/badge.png" alt="Badge React" class="img" />
-        </figure>
+    <section class="heroWrap">
+      <div class="hero">
+        <div class="badge">
+          <figure class="imgWrap">
+            <img src="./images/badge.png" alt="Badge React" class="img" />
+          </figure>
+        </div>
+        <div class="titleWrap">
+          <h1 class="title">Curso de React.js</h1>
+        </div>
+        <div class="descriptionWrap">
+          <p class="description">
+            El parrafo de la descripción: React es una de las librerías más
+            utilizadas hoy en día para crear aplicaciones web. En este curso
+            podrás dominar la creación de aplicaciones a través de un proyecto
+            que te ayudará a explotar todas las capacidades de esta librería.
+          </p>
+        </div>
+        <div class="release">
+          <p>Lanzamiento:</p>
+          <span>03d</span>
+          <span>18h</span>
+          <span>22m</span>
+          <span>29s</span>
+        </div>
+        <form action="" class="form">
+          <label class="contact">Contáctanos para saber más</label>
+          <input
+            type="text"
+            class="form__name"
+            placeholder="Nombre completo"
+            autocomplete="name"
+            required
+          />
+          <input
+            type="email"
+            class="form__email"
+            placeholder="Correo electronico"
+            autocomplete="email"
+            required
+          />
+          <button>Comienza ahora</button>
+        </form>
       </div>
-      <div class="titleWrap">
-        <h1 class="title">Curso de Fundamentos de PHP</h1>
-      </div>
-      <div class="descriptionWrap">
-        <p class="description">
-          El parrafo de la descripción: React es una de las librerías más
-          utilizadas hoy en día para crear aplicaciones web. En este curso
-          podrás dominar la creación de aplicaciones a través de un proyecto que
-          te ayudará a explotar todas las capacidades de esta librería.
-        </p>
-      </div>
-      <div class="release">
-        <p>Lanzamiento:</p>
-        <span>03d</span>
-        <span>18h</span>
-        <span>22m</span>
-        <span>29s</span>
-      </div>
-      <form action="" class="form">
-        <label class="contact">Contáctanos para saber más</label>
-        <input
-          type="text"
-          class="form__name"
-          placeholder="Nombre completo"
-          autocomplete="name"
-          required
-        />
-        <input
-          type="email"
-          class="form__email"
-          placeholder="Correo electronico"
-          autocomplete="email"
-          required
-        />
-        <button>Comienza ahora</button>
-      </form>
     </section>
   </body>
 </html>

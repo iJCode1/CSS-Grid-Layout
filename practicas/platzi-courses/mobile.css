@@ -1,0 +1,17 @@
+.heroWrap {
+  grid-template-columns: minmax(auto, 1fr);
+}
+
+.hero {
+  grid-template-columns: 70px 1fr;
+  grid-template-areas:
+    "badge title"
+    "description description"
+    "release release"
+    "form form";
+  padding: 4rem 3rem;
+}
+
+.release {
+  text-align: center;
+}
