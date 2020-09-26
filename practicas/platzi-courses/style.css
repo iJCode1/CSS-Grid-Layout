@@ -7,3 +7,94 @@
 html {
   font-size: 62.5%;
 }
+
+body {
+  font-family: "Lato", sans-serif;
+}
+.hero {
+  background-color: #234756;
+  font-size: 1.6rem;
+  padding: 10px 0px;
+}
+
+.badge {
+  width: 7rem;
+  height: 7rem;
+}
+
+.imgWrap {
+  width: inherit;
+  height: inherit;
+}
+
+.imgWrap img {
+  width: inherit;
+  height: inherit;
+}
+
+.title {
+  font-size: 3.6rem;
+}
+
+.title,
+.description,
+.release,
+.form p {
+  color: white;
+}
+
+.release p {
+  font-size: 2rem;
+}
+
+.release span {
+  font-size: 3.2rem;
+}
+
+.release span::after {
+  content: ":";
+  margin: 0.5rem;
+}
+
+.release span:last-child::after {
+  content: "";
+}
+
+.form {
+  background-color: white;
+  max-width: 42rem;
+  padding: 2.4rem;
+}
+
+.contact {
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  display: block;
+  margin-bottom: 2.4rem;
+}
+
+.form input {
+  font-size: 1.6rem;
+  width: 100%;
+  padding: 2rem 1.2rem;
+  margin-bottom: 2.5rem;
+  outline: none;
+  border: 1px solid rgb(199, 199, 199);
+}
+
+.form input:focus {
+  border: 1px solid #0791e6;
+}
+
+.form button {
+  width: 100%;
+  border-radius: 0.5rem;
+  border-style: none;
+  outline: none;
+  background-color: #98ca3f;
+  border-bottom: 0.5rem solid #6d932b;
+  padding: 1rem 1.3rem;
+  color: white;
+  font-size: 1.6rem;
+}
