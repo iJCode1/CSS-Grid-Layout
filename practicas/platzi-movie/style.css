@@ -66,3 +66,44 @@ body {
   border-radius: 50%;
   width: 3.5rem;
 }
+
+/*----------------------------------------------------------*/
+
+.content {
+  display: grid;
+  grid-template-columns: 0.1fr 1fr;
+}
+
+.content aside {
+  background-color: #ea5455;
+}
+
+/*----------------------------------------------------------*/
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.7rem;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.aside > p {
+  color: white;
+}
+
+.aside__logo {
+  width: 3rem;
+}
+
+.aside__home,
+.aside__trending,
+.aside__likes,
+.aside__config {
+  text-align: center;
+  filter: invert(1);
+  margin: 3rem 0rem;
+}
+
+/*----------------------------------------------------------*/
