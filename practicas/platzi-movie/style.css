@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr 0.4fr;
+  background-color: white;
+  box-shadow: 0px 0px 10px gray;
+  align-items: center;
+  padding: 1rem 0rem;
+}
+
+.nav__logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 1.5rem;
+}
+
+.nav__logo p {
+  font-size: 2rem;
+  color: #cd0a0a;
+}
+
+.nav__image {
+  padding: 0px 0.5rem 0rem 0rem;
+}
+
+.nav__image img {
+  width: 3rem;
+}
+
+.nav__input {
+  height: 3rem;
+  width: 90%;
+  border-radius: 0.4rem;
+  border: 1px solid#a6a6a4;
+  padding: 0rem 0.5rem;
+  outline: none;
+}
+
+.nav__profile {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 2rem;
+}
+
+.profile__name {
+  font-size: 1.3rem;
+  margin: 0rem 1rem;
+}
+
+.profile__photo img {
+  border-radius: 50%;
+  width: 3.5rem;
+}

@@ -6,15 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="shortcut icon" type="image/x-icon" href="./images/logo.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <head>
+  <body>
     <div class="container">
-      <nav>
-        <figure class="nav__image">
-          <img src="./images/logo.png" alt="Logo" />
-        </figure>
+      <nav class="nav">
+        <div class="nav__logo">
+          <figure class="nav__image">
+            <img src="./images/logo.png" alt="Logo" />
+          </figure>
+          <p>Movi.es</p>
+        </div>
         <form class="nav__inputWrap">
           <input
+            class="nav__input"
             type="text"
             placeholder="Busca tu peli, actor, actriz, o director favorito"
           />
@@ -127,5 +135,5 @@
         </div>
       </section>
     </div>
-  </head>
+  </body>
 </html>
